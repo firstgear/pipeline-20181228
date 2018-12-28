@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - npm install time
+#      - npm install time
       - aws cloudformation package --template-file samTemplate.yaml --s3-bucket pipeline-20181228
                                    --output-template-file outputSamTemplate.yaml
 artifacts:
