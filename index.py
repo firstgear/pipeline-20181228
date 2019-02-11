@@ -1,6 +1,6 @@
 import json
 def handler(event, context):
-    message = "Welcome Ionut."
+    message = "Welcome to release candidate."
     return {
         "statusCode": 200,
         "body" : json.dumps(message)
