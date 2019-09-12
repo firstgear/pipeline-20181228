@@ -1,6 +1,6 @@
 import json
 def handler(event, context):
-    message = "Welcome to SAM driven API."
+    message = "Welcome to SAM driven APY."
     return {
         "statusCode": 200,
         "body" : json.dumps(message)
